@@ -1,0 +1,90 @@
+.mynav {
+  background-image: url("img/gstb100gb-1a9-1920x612.webp");
+  background-size: cover;
+  background-position-x: 50%;
+  background-position-y: 50%;
+  height: 600px;
+  background-color: #020202;
+  background-repeat: no-repeat;
+}
+/* makes bar transparent*/
+.navbar {
+  position: sticky;
+  background-color: black !important;
+}
+/* Nav Title*/
+.navbar .navbar-brand {
+  color: #a28557;
+}
+/* Why Does This Not Work?
+.nav-brand:hover {
+  background-color: #a28557 !important;
+}
+*/
+
+/* This centers menu */
+.navbar .navbar-nav {
+  margin: 0 auto;
+}
+/* Main Menu */
+.navbar .nav-link {
+  color: #a28557 !important;
+}
+/* Dropdown Menu */
+.navbar .dropdown-menu {
+  background-color: #3b3b3b;
+}
+/* Dropdown Menu Items */
+.navbar .dropdown-item {
+  color: #a28557;
+}
+/* Dropdown hover */
+.dropdown-item:hover {
+  background-color: black;
+}
+/* Search Bar*/
+.form-control {
+  background-color: #3b3b3b;
+  color: #a28557;
+  border: 1px solid #a28557;
+}
+/* Dropdown Line */
+.navbar .dropdown-divider {
+  border-color: #a28557;
+}
+/* Button */
+.btn {
+  background-color: #3b3b3b;
+  color: #a28557;
+  border: 1px solid #a28557;
+}
+/* Search Button*/
+.btn:hover {
+  background-color: #a28557;
+  border: 1px solid #f8e009;
+}
+/* Hamburger */
+.navbar .navbar-toggler {
+  color: #a28557;
+  background-color: #a28557;
+}
+/* Subtitle */
+.subtitle {
+  margin-top: 200px;
+  margin-left: 18px;
+  font-size: large;
+  font-style: italic;
+  color: #a28557;
+}
+body {
+  background-color: #000000;
+}
+.body-p {
+  border: solid 1px red;
+  height: 50px;
+  margin-top: 20px;
+  margin-left: 18px;
+  font-size: x-large;
+  color: #a28557;
+  text-align: center;
+}
