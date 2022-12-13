@@ -1,9 +1,8 @@
 .mynav {
-  background-image: url("img/gstb100gb-1a9-1920x612.webp");
   background-size: cover;
   background-position-x: 50%;
   background-position-y: 50%;
-  height: 600px;
+  height: auto;
   background-color: #020202;
   background-repeat: no-repeat;
   max-width: 100%;
@@ -17,10 +16,10 @@
   color: #a28557;
 }
 /* Why Does This Not Work?
-.nav-brand:hover {
-  background-color: #a28557 !important;
-}
-*/
+  .nav-brand:hover {
+    background-color: #a28557 !important;
+  }
+  */
 
 /* This centers menu */
 .navbar .navbar-nav {
